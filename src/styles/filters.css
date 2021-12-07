@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+
+.filters_container {
+  display: flex;
+  justify-content: center;
+  height: 4.5rem;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  background-color: rgb(34, 165, 209);
+  padding: 1rem;
+}
+
+.filters input,
+.filters select {
+  font-family: "Ropa Sans";
+  height: 2.4rem;
+  width: 16%;
+}
+
+.filters select {
+  border-radius: 3px;
+  width: 16%;
+}
+
+.filters button {
+  height: 2.4rem;
+  width: 16%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  border: none;
+}
+
+.filters button {
+  height: 2.375rem;
+  width: 10%;
+  margin-top: 0.438rem;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+}
+
+.filters button:active {
+  background: darkred;
+}
+
+.change-color {
+  border-color: lightcoral;
+  background-color: lightcoral;
+}
